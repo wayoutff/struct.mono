@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@struct/*": ["packages/*/src"],
+      "@struct-instance/*": ["instances/*/src"]
+    },
+    "noEmit": true
+  }
+}
