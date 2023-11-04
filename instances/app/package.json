@@ -9,7 +9,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@struct/foo": "workspace:*"
+    "@struct/bar": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "5.0.0",

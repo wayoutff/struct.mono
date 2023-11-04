@@ -20,9 +20,9 @@ importers:
 
   instances/app:
     dependencies:
-      '@struct/foo':
+      '@struct/bar':
         specifier: workspace:*
-        version: link:../../packages/foo
+        version: link:../../packages/bar
     devDependencies:
       rimraf:
         specifier: 5.0.0
