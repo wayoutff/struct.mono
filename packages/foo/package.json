@@ -1,0 +1,8 @@
+{
+  "name": "@struct/foo",
+  "version": "1.0.0",
+  "scripts": {
+    "run:hello": "echo \"hello foo pkg\""
+  },
+  "devDependencies": {}
+}

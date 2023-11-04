@@ -1,0 +1,16 @@
+{
+  "name": "struct.mono",
+  "description": "Struct monorepository",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "instances/*"
+  ],
+  "scripts": {
+    "clean": "pnpm run -r clean",
+    "build": "pnpm run -r build",
+    "run:hello": "pnpm run -r run:hello",
+    "test": "pnpm run -r test"
+  },
+  "devDependencies": {}
+}
