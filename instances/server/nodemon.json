@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "js,ts,json",
+  "ignore": ["server/**/*.spec.ts"],
+  "exec": "NODE_OPTIONS='--experimental-modules --es-module-specifier-resolution=node' ts-node --project tsconfig.node.json ./src/index.ts"
+}
