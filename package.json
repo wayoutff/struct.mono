@@ -10,6 +10,7 @@
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build && pnpm run after:node",
     "run:hello": "pnpm run -r run:hello",
+    "server": "pnpm run -r server",
     "test": "pnpm run -r test",
     "lint": "eslint --ext js,ts,tsx .",
     "after:node": "node ./instances/app/dist/bundle.js"
@@ -18,5 +19,8 @@
     "eslint": "8.51.0",
     "eslint-plugin-import": "2.28.0",
     "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0"
   }
 }
